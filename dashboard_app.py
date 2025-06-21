@@ -8,7 +8,7 @@ st.title("Alameda Health Equity Dashboard")
 st.markdown("This map shows ZIP-level health equity layers for Diabetes, Obesity, DFUs, Stroke, Disability, and Income.")
 
 # Load and display the saved HTML map
-map_path = "../06_Results/alameda_combined_with_legend.html"
+map_path = "alameda_combined_with_legend.html"
 
 with open(map_path, 'r', encoding='utf-8') as f:
     map_html = f.read()
